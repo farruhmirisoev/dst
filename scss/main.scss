@@ -1,0 +1,21 @@
+@import 'normalize';
+@import 'fonts';
+@import 'variables';
+@import 'mixin';
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/css3/images";
+@import "compass/css3/box-sizing";
+
+ul, li, ul.menu li{
+    margin:0;
+    padding: 0;
+}
+
+tbody{ border:none;  }
+
+a, input{  text-decoration: none; outline: none !important; }
+
+// Media quereis---------
+
+@import 'media';
